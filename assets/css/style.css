@@ -19,7 +19,6 @@ header {
 header h1 {
     display: inline-block;
     font-size: 48px;
-    text-align: left;
 }
 
 header h1 .seo {
@@ -29,7 +28,7 @@ header h1 .seo {
 header {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
+    /* moving this to below nav ul li -- float: right; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
@@ -40,8 +39,9 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
+    padding-top: 15px;
     margin-left: 25px;
-    text-align: right;
+    float: right;
 }
 
 a {
@@ -53,6 +53,7 @@ p {
     font-size: 16px;
 }
 
+/* background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -192,13 +193,13 @@ aside {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
