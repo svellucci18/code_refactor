@@ -25,4 +25,6 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
 
-![The navigation links are aligned to the right, and the slideshow buttons are center aligned.](./images/Horiseon.png)
+![Horiseon website screenshot](./assets/images/Horiseon.png)
+
+[Link to the website](https://svellucci18.github.io/code_refactor/)
