@@ -24,3 +24,5 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
+
+![The navigation links are aligned to the right, and the slideshow buttons are center aligned.](./images/Horiseon.png)
